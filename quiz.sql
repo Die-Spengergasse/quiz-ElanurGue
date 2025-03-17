@@ -1,11 +1,11 @@
-create table q_questions
+create table if not exists q_questions
 (
     q_id   int auto_increment
         primary key,
     q_text varchar(255) null
 );
 
-create table a_answers
+create table if not exists a_answers
 (
     a_id      int auto_increment
         primary key,

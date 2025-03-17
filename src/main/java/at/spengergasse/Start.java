@@ -8,7 +8,7 @@ public class Start
 
         while (show)
         {
-            System.out.println(quiz.showWuestionsAndAnswers());
+            System.out.println(quiz.showQuestionsAndAnswers());
         }
 
     }
